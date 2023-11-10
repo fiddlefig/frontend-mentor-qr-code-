@@ -1,0 +1,59 @@
+.attribution {
+    font-size: 11px; text-align: center;
+    display: flex;
+    flex-direction: end;
+    align-items: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@font-face {
+    font-family: "outfit" ;
+    src: url(/qr-code-component-main/Outfit/outfit.ttf);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%) ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 280px;
+    display: flex;
+    margin-top: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    
+}
+.everything {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+}
+.text {
+    padding: 25px;
+    text-align: center;
+    font-family: "outfit";
+}
+.big {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.small {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
